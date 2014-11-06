@@ -1217,7 +1217,7 @@ endif
 DEFAULT_YACC=bison
 
 # on solaris add -lxnet (e.g. LIBS= -lxnet)
-LIBS= -ldl -landroid-shmem  #-lresolv
+LIBS= -ldl -llog # -landroid-shmem  #-lresolv
 
 #os specific stuff
 ifeq ($(OS), linux)
